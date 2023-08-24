@@ -8,7 +8,6 @@ This repository aims to develop a methodology to clean the PIMUS network model f
 
 ## Run locally with Nvidia GPU
 
-
 Create RAPIDS environment
 ```bash
 conda env create -f environment.yml
