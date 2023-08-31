@@ -128,7 +128,7 @@ class Converters():
         if csv_path == None:
             csv_path = self.export_path
         if net_path == None:
-            net_path = csv_path + '/processed.net'
+            net_path = 'processed.net'
         print(net_path)
         
         with open(net_path, mode='w', encoding='utf-8', errors='ignore') as net:
